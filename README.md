@@ -1,9 +1,9 @@
 # Password Generator
 
-This is a hands-on project where I used the string and secrets modules. The app allows the user to generate secure passwords based on selected criteria such as lowercase letters, uppercase letters, digits, and symbols, with a flexible password length selection (ranging from 8 to 20).
+This is a hands-on project where I used the string and secrets modules. The app allows users to generate secure passwords based on criteria such as lowercase letters, uppercase letters, digits, and symbols, with a flexible password length selection (ranging from 8 to 20).
 
 <p align="center">
-    <img width="60%" src="images/gui.gif">
+    <img width="40%" src="images/gui.gif">
 </p>
 
 ## Features
