@@ -22,7 +22,7 @@ char_sets = {
 # Default length
 pass_len = 8
 
-# Generate a password based on selected character sets
+# Generate password function based on selected character sets using secrets and string modules.
 def generate_password():
     selected_chars = "".join(char_sets[option] for option, var in options.items() if var.get())
 
@@ -44,15 +44,12 @@ def update_password_field():
         new_password.delete(0, 'end')
         new_password.insert(0, password)
 
-# Copy the password to the clipboard and notify the user
 def copy_to_clipboard():
     password = new_password.get()
     app.clipboard_clear()
     app.clipboard_append(password)
 
-# UI Elements
 
-# Title of the app
 title_label = ctk.CTkLabel(frame, text="Password Generator", font=('Arial', 24, 'bold'))
 title_label.grid(row=0, column=0, columnspan=2, pady=10)
 
@@ -91,3 +88,36 @@ copy_pass_button.grid(row=row_idx + 1, column=0, columnspan=2, pady=10)
 
 # Start the app
 app.mainloop()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
